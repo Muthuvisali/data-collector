@@ -373,8 +373,7 @@ async function submitAll(){
         sentence_index: i+1,
         sentence_text: SENTENCES[i],
         label: recs[i].label,
-        audio_file_path: fname,
-        participant_name: displayName
+        audio_file_path: fname
       });
     }catch(e){
       st.style.display='none';
